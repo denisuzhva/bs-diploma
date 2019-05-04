@@ -1,0 +1,67 @@
+\documentclass[a4paper,12pt]{article}
+%\usepackage[T2A]{fontenc}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb,amsfonts,amsmath,cite,enumerate,float,indentfirst}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{longtable}
+\usepackage{feynmp}%%%{feynmp}
+\usepackage{caption}
+\usepackage[nottoc,numbib]{tocbibind}
+\graphicspath{{Img/}}
+
+\captionsetup[table]{skip=10pt}
+
+\lstset { %
+    language=C++,
+    backgroundcolor=\color{black!5}, % set backgroundcolor
+    basicstyle=\footnotesize,% basic font setting
+}
+
+\sloppy \textwidth = 17 cm 
+\oddsidemargin = -0.5cm
+\topmargin = -2cm \textheight = 25cm
+
+%\makeatletter
+%\renewcommand{\@biblabel}[1]{#1.}
+%\makeatother
+
+\usepackage{geometry}
+\geometry{left=2cm}% левое поле
+\geometry{right=1.5cm}% правое поле
+\geometry{top=1cm}% верхнее поле
+\geometry{bottom=2cm}% нижнее поле
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\labelenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{.\arabic{enumii}}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
+\renewcommand{\theenumiii}{.\arabic{enumiii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
+
+\newcommand{\imgh}[4]{\begin{figure}[H]\center{\includegraphics[width=#1]{#2}}\caption{#3}\label{fig:#4}\end{figure}}
+
+\begin{document}
+\pagenumbering{gobble}
+{\footnotesize
+\input{TP/Thesis}
+}
+\newpage
+\tableofcontents
+\pagenumbering{arabic}
+\addtocounter{page}{1}
+\newpage
+%\input{ABSTRACT/abstract}
+\input{INTRO/intro}
+\input{METHODS/methods}
+\input{CALCULATIONS/calculations}
+\input{CONCLUSIONS/conclusions}
+\input{BIB/bib}
+\newpage
+\input{APPENDIX/appendix}
+\end{document}

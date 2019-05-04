@@ -1,0 +1,196 @@
+\section{Приложение}
+\subsection{Изображения}
+%\imgh{15cm}{QCD}{Некоторые ``бесцветные'' комбинации кварков, способные существовать}{QCD}
+\imgh{8cm}{QGstring}{Схема фрагментации кварк-глюонной струны при её натяжении с последующей адронизацией (прим.: разные цвета исползованы не с целью изобразить цветовой заряд, а лишь для наглядности)}{QGstring}
+\imgh{16cm}{DevSch}{Принципиальная схема работы генератора}{DevSch}
+\imgh{13cm}{Strings}{Визуализация разыгрывания 100 струн при равномерном распределении в области единичного круга. Отношение радиуса круговой области к радиусу генерируемых струн примерно соответствует отношению радиуса реального ядра к радиусу реальных струн в поперечном сечении ($7.5$ фм к $0.2 \div 0.3$ фм соответственно)}{Strings}
+\imgh{9cm}{DFS}{Схема обхода графа методом Depth-first search}{DFS}
+\imgh{16cm}{N_S_MATLAB/NclNetaMATLAB}{График зависимости $N_{cl}/N$ от $\eta$ (MATLAB, усреднено по 5 симуляциям)}{NclNetaMATLAB}
+\imgh{16cm}{N_S_MATLAB/SclSetaMATLAB}{График зависимости $S_{cl}/S$ от $\eta$ (MATLAB, усреднено по 60 симуляциям)}{SclSetaMATLAB}
+\imgh{15cm}{N_S_cpp/NclNeta}{График зависимости $N_{cl}/N$ от $\eta$ (С++, усреднено по 3638 симуляциям)}{NclNeta}
+\imgh{16cm}{N_S_cpp/SclSeta}{График зависимости $S_{cl}/S$ от $\eta$ (С++, усреднено по  3638 симуляциям)}{SclSeta}
+\imgh{15cm}{MulReduction/nn0eta}{График зависимости $\langle n \rangle / \langle n_0 \rangle$ от $\eta$ (С++, усреднено по 3563 симуляциям)}{nn0eta}
+\imgh{16cm}{b_eta/bEta}{График зависимости $b$ от $\eta$ с учётом (Fusion) и без учёта (No Fusion) слияния струн (С++, 10000 симуляций)}{bEta}
+\imgh{16cm}{b_eta/bEtaScaled}{Отмасштабированный по оси $b$ график зависимости $b$ от $\eta$ с учётом (Fusion) и без учёта (No Fusion) слияния струн (С++, 10000 симуляций)}{bEtaScaled}
+\imgh{16cm}{b_eta/bEtaConstN}{График зависимости $b$ от $\eta$ при $N = \langle N \rangle$ со слиянием (С++, 10000 симуляций)}{bEtaConstN}
+\imgh{16cm}{b_eta/bEtaConstNScaled}{Отмасштабированный по оси $b$ график зависимости $b$ от $\eta$ при $N = \langle N \rangle$ со слиянием (С++, 10000 симуляций)}{bEtaConstNScaled}
+%%%
+\subsection{Таблицы}
+{\footnotesize
+\begin{longtable}{| l | l | l || l | l | l || l | l | l |}
+	\hline
+	$\eta$	&	$N_{cl}/N$	&	$\Delta (N_{cl}/N)$	&	$\eta$	&	$N_{cl}/N$	&	$\Delta (N_{cl}/N)$	&	$\eta$	&	$N_{cl}/N$	&	$\Delta (N_{cl}/N)$	\\
+	\hline
+	0.085	&	0.030	&	0.007	&	1.018	&	0.480	&	0.182	&	1.951	&	0.999	&	0.001	\\
+	0.170	&	0.028	&	0.003	&	1.103	&	0.739	&	0.170	&	2.036	&	0.998	&	0.001	\\
+	0.255	&	0.028	&	0.004	&	1.188	&	0.840	&	0.157	&	2.121	&	0.996	&	0.004	\\
+	0.339	&	0.036	&	0.014	&	1.273	&	0.941	&	0.025	&	2.206	&	0.999	&	0.001	\\
+	0.424	&	0.036	&	0.005	&	1.357	&	0.948	&	0.020	&	2.291	&	1.000	&	0.001	\\
+	0.509	&	0.052	&	0.018	&	1.442	&	0.976	&	0.013	&	2.375	&	1.000	&	0	\\
+	0.594	&	0.065	&	0.026	&	1.527	&	0.982	&	0.008	&	2.460	&	0.999	&	0	\\
+	0.679	&	0.077	&	0.009	&	1.612	&	0.989	&	0.004	&	2.545	&	1.000	&	0	\\
+	0.764	&	0.095	&	0.037	&	1.697	&	0.992	&	0.009	&	3.393	&	1.000	&	0	\\
+	0.848	&	0.151	&	0.051	&	1.782	&	0.997	&	0.003	&	6.787	&	1.000	&	0	\\
+	0.933	&	0.265	&	0.071	&	1.866	&	0.996	&	0.004	&	10.18	&	1.000	&	0	\\
+	\hline
+	\caption{Значения $\eta$ и соответствующие $N_{cl}/N$ с погрешностями $\Delta (N_{cl}/N)$ к рис. \ref{fig:NclNetaMATLAB}} \label{tab:NclNetaMATLAB}
+\end{longtable}}
+
+{\footnotesize
+\begin{longtable}{| l | l | l || l | l | l |}
+	\hline
+	$\eta$	&	$S_{cl}/S$	&	$\Delta (S_{cl}/S)$	&	$\eta$	&	$S_{cl}/S$	&	$\Delta (S_{cl}/S)$	\\
+	\hline
+	0.085	&	0.029	&	0.007	&	2.545	&	0.999	&	0.001	\\
+	0.424	&	0.033	&	0.008	&	2.969	&	1.000	&	0	\\
+	0.636	&	0.058	&	0.016	&	3.393	&	1.000	&	0	\\
+	0.848	&	0.159	&	0.079	&	3.818	&	1.000	&	0	\\
+	1.060	&	0.542	&	0.156	&	4.242	&	1.000	&	0	\\
+	1.273	&	0.919	&	0.034	&	5.090	&	1.000	&	0	\\
+	1.697	&	0.990	&	0.006	&	7.635	&	1.000	&	0	\\
+	2.121	&	0.998	&	0.002	&	10.18	&	1.000	&	0	\\
+	\hline
+	\caption{Значения $\eta$ и соответствующие $S_{cl}/S$ с погрешностями $\Delta (S_{cl}/S)$ к рис. \ref{fig:SclSetaMATLAB}} \label{tab:SclSetaMATLAB}
+\end{longtable}}
+
+{\footnotesize
+\begin{longtable}{| l | l | l | l || l | l | l | l |}
+	\hline
+	$\eta$	&	$N_{cl}/N$	&	$\Delta \eta$	&	$\Delta (N_{cl}/N)$	&	$\eta$	&	$N_{cl}/N$	&	$\Delta \eta$	&	$\Delta (N_{cl}/N)$	\\
+	\hline
+	0.186	&	0.043	&	0.008	&	0.012	&	2.249	&	0.978	&	0.023	&	0.006	\\
+	0.520	&	0.124	&	0.011	&	0.052	&	2.676	&	0.987	&	0.025	&	0.004	\\
+	0.739	&	0.458	&	0.013	&	0.115	&	3.523	&	0.994	&	0.029	&	0.002	\\
+	0.957	&	0.750	&	0.014	&	0.051	&	4.366	&	0.997	&	0.033	&	0.001	\\
+	1.175	&	0.861	&	0.016	&	0.028	&	5.206	&	0.998	&	0.036	&	0.001	\\
+	1.391	&	0.914	&	0.018	&	0.019	&	7.714	&	1.000	&	0.045	&	0	\\
+	1.822	&	0.960	&	0.020	&	0.009	&	10.212	&	1.000	&	0.054	&	0	\\
+	\hline
+	\caption{Значения $\eta$ и соответствующие $N_{cl}/N$ с погрешностями $\Delta \eta$ и $\Delta (N_{cl}/N)$ к рис. \ref{fig:NclNeta}} \label{tab:NclNeta}
+\end{longtable}}
+
+{\footnotesize
+\begin{longtable}{| l | l | l | l || l | l | l | l |}
+	\hline
+	$\eta$	&	$S_{cl}/S$	&	$\Delta \eta$	&	$\Delta (S_{cl}/S)$	&	$\eta$	&	$S_{cl}/S$	&	$\Delta \eta$	&	$\Delta (S_{cl}/S)$	\\
+	\hline
+	0.186	&	0.025	&	0.008	&	0.007	&	2.249	&	0.901	&	0.023	&	0.022	\\
+	0.520	&	0.072	&	0.011	&	0.031	&	2.676	&	0.93	&	0.025	&	0.018	\\
+	0.739	&	0.304	&	0.013	&	0.081	&	3.523	&	0.961	&	0.029	&	0.013	\\
+	0.957	&	0.557	&	0.014	&	0.053	&	4.366	&	0.976	&	0.033	&	0.010	\\
+	1.175	&	0.686	&	0.016	&	0.042	&	5.206	&	0.984	&	0.036	&	0.008	\\
+	1.391	&	0.765	&	0.018	&	0.035	&	7.714	&	0.995	&	0.045	&	0.004	\\
+	1.822	&	0.854	&	0.020	&	0.027	&	10.212	&	0.998	&	0.054	&	0.003	\\
+	\hline
+	\caption{Значения $\eta$ и соответствующие $S_{cl}/S$ с погрешностями $\Delta \eta$ и $\Delta (S_{cl}/S)$ к рис. \ref{fig:SclSeta}} \label{tab:SclSeta}
+\end{longtable}}
+
+{\footnotesize
+\begin{longtable}{| l | l | l | l || l | l | l | l |}
+	\hline
+	$\eta$	&	$\langle n \rangle / \langle n_0 \rangle$	&	$\Delta \eta$	&	$\Delta (\langle n \rangle / \langle n_0 \rangle)$	&	$\eta$	&	$\langle n \rangle / \langle n_0 \rangle$	&	$\Delta \eta$	&	$\Delta (\langle n \rangle / \langle n_0 \rangle)$	\\
+	\hline
+	1.063	&	0.968	&	0.017	&	0.008	&	2.879	&	0.587	&	0.027	&	0.003	\\
+	1.326	&	0.865	&	0.019	&	0.007	&	3.304	&	0.549	&	0.028	&	0.002	\\
+	1.499	&	0.814	&	0.020	&	0.006	&	4.169	&	0.489	&	0.031	&	0.002	\\
+	1.680	&	0.769	&	0.022	&	0.005	&	5.044	&	0.445	&	0.033	&	0.002	\\
+	1.868	&	0.729	&	0.023	&	0.005	&	5.926	&	0.410	&	0.036	&	0.001	\\
+	2.061	&	0.694	&	0.024	&	0.004	&	8.581	&	0.341	&	0.043	&	0.001	\\
+	2.463	&	0.635	&	0.025	&	0.003	&	11.236	&	0.298	&	0.052	&	0.001	\\
+	\hline
+	\caption{Значения $\eta$ и $\langle n \rangle / \langle n_0 \rangle$ с погрешностями $\Delta \eta$ и $\Delta (\langle n \rangle / \langle n_0 \rangle)$ к рис. \ref{fig:nn0eta}} \label{tab:nn0eta}
+\end{longtable}}
+
+{\footnotesize
+\begin{longtable}{| l | l | l || l | l | l |}
+	\hline
+	$\eta$	&	$b_{\textnormal{fusion}}$	&	$b_{\textnormal{no fusion}}$	&	$\eta$	&	$b_{\textnormal{fusion}}$	&	$b_{\textnormal{no fusion}}$	\\
+	\hline
+	0.002	&	0.489	&	0.496	&	0.467	&	0.992	&	0.990	\\
+	0.008	&	0.780	&	0.758	&	0.933	&	0.995	&	0.999	\\
+	0.042	&	0.945	&	0.900	&	2.800	&	0.997	&	1.002	\\
+	0.085	&	0.969	&	0.938	&	4.751	&	0.996	&	1.003	\\
+	0.212	&	0.985	&	0.973	&	10.35	&	0.998	&	1.004	\\
+	\hline
+	\caption{Значения $\eta$ и соответствующие $b_{\textnormal{fusion}}$ и $b_{\textnormal{no fusion}}$ к рис. \ref{fig:bEta} и рис. \ref{fig:bEtaScaled}} \label{tab:bEta}
+\end{longtable}}
+
+{\footnotesize
+\begin{longtable}{| l | l || l | l |}
+	\hline
+	$\eta$	&	$b_{\textnormal{fusion}}$	&	$\eta$	&	$b_{\textnormal{fusion}}$	\\
+	\hline
+	0.085	&	-0.001	&	2.545	&	0.037	\\
+	0.424	&	0.007	&	3.393	&	0.046	\\
+	0.636	&	0.045	&	4.242	&	0.031	\\
+	0.848	&	0.037	&	5.090	&	0.011	\\
+	1.060	&	0.004	&	7.635	&	0.015	\\
+	1.273	&	0.028	&	10.180	&	0.010	\\
+	1.697	&	0.029	&	-		&	-	\\
+	\hline
+	\caption{Значения $\eta$ и соответствующие $b_{\textnormal{fusion}}$ к рис. \ref{fig:bEtaConstN} и рис. \ref{fig:bEtaConstNScaled}} \label{tab:bEtaConstN}
+\end{longtable}}
+%%%
+\newpage
+\subsection{Код программы}
+\lstset{caption={Основные методы класса ``Simulation''},label=lst:SimulationMethodsGeneral}
+\begin{lstlisting}
+void	f_nGen(); // 1
+void	f_GenerateXY_Neym(); // 2
+void	f_FillGraph(); // 3
+void	f_FindConnComp(); // 4
+void	f_FindMaxComp(); // 5
+void	f_FindNN(); // 6
+void	f_FindSS(); // 7
+void	f_FindMulFB(); // 8
+void	f_FindMulRatio(); // 9
+void	f_WriteData(); // 10
+\end{lstlisting}
+По порядку:  1 -- генерация значения $N$ через заданное среднее $\langle N \rangle$; 2 -- генерация координат струн методом Неймана; 3 -- создание графа пересекающихся струн; 4 -- поиск компонент связности графа; 5 -- поиск самого большого кластера по количеству струн; 6 -- расчёт отношения количества струн в максимальном кластере к общему количеству разбросанных струн; 7 -- расчёт отношения площади максимального кластера к общей площади взаимодействия; 8 -- генерация множественности вперёд-назад с учётом слияния струн и без; 9 -- генерация множественности с учётом слияния струн и без; 10 -- запись данных в файл для последующей обработки.
+
+\lstset{caption={Вспомогательные методы класса ``Simulation''},label=lst:SimulationMethodsAdd}
+\begin{lstlisting}
+void	f_bCalc(); // 1
+void	f_dfs(unsigned short int); // 2	
+unsigned short int	f_in_PDF_N(unsigned short int); // 3
+float	f_in_PDF(float, float); // 4	
+float	f_in_distXY(float, float, float, float, unsigned short int); // 5
+\end{lstlisting}
+По порядку: 1 -- расчёт корреляционного параметра $b$ и запись его в файл; 2 -- функция обхода графа для поиска компонент связности методом DFS (Depth-first search); 3 -- метод, хранящий функцию распределения (или генератор) значения $N$ через заданное среднее $\langle N \rangle$; 4 -- метод, хранящий функцию распределения разброса струн в области взаимодействия; 5 -- метод, возвращающий расстояние между двумя заданными точками.
+\lstset{caption={Поиск компонент связности с помощью DFS},label=lst:DFS}
+\begin{lstlisting}
+void	Simulation::f_FindConnComp()
+{
+    v_compData.clear(); // clear the vcm
+    v_comp.clear(); // clear the temporary cluster array
+    v_used.clear(); // clear the trigger marks
+    for(usint i = 0; i < N; ++i)
+		v_used.push_back(false); // make all the coordinates unused
+	for(usint i = 0; i < N; ++i)
+		if(!v_used[i]) // if unused...
+        {
+            v_comp.clear();
+			f_dfs(i); // go depth-first search
+			if(!v_comp.empty())
+            {
+                v_compData.resize(i + 1);
+                v_compData[i] = v_comp; // write into the vcm
+            }
+		}
+}
+
+void	Simulation::f_dfs(usint v)
+{
+    v_used[v] = true; // string v searching for nearby strings
+	v_comp.push_back(v); // push v'th string to a component being made
+	for(usint i = 0; i < N; ++i)
+	{
+	    if(g_connGraph[v][i] < 65535) // 65535 is default (if usint is used)
+        {
+            usint to = g_connGraph[v][i]; // get a neighbor from the graph
+            if(! v_used[to]) // check if a neighbor was not checked yet
+                f_dfs(to); // recursively repeat dfs
+        }
+	}
+}
+\end{lstlisting}
