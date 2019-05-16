@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.2)  16 MAY 2019 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.2)  16 MAY 2019 20:39
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -631,7 +631,7 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) (Main.aux
 
-LaTeX Warning: Label `eq:nfnb' multiply defined.
+LaTeX Warning: Label `tab:bnn' multiply defined.
 
 )
 \openout1 = `Main.aux'.
@@ -758,7 +758,7 @@ Package epstopdf Info: Source file: <Img/eagle2.eps>
 .pdf Img/eagle2.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<Img/eagle2-eps-converted-to.pdf, id=115, 1189.44376pt x 1204.5pt>
+<Img/eagle2-eps-converted-to.pdf, id=131, 1189.44376pt x 1204.5pt>
 File: Img/eagle2-eps-converted-to.pdf Graphic file (type pdf)
 <use Img/eagle2-eps-converted-to.pdf>
 Package pdftex.def Info: Img/eagle2-eps-converted-to.pdf  used on input line 14
@@ -771,25 +771,8 @@ Package pdftex.def Info: Img/eagle2-eps-converted-to.pdf  used on input line 14
 \tf@toc=\write5
 \openout5 = `Main.toc'.
 
- [2] (ABSTRACT/abstract.tex) (INTRO/intro.tex [3] [4]
-
-LaTeX Warning: Citation `dissert' on page 5 undefined on input line 56.
-
-) (METHODS/methods.tex [5] [6]
-
-LaTeX Warning: Citation `dissert' on page 7 undefined on input line 44.
-
-[7] [8]
-
-LaTeX Warning: Citation `dissert' on page 9 undefined on input line 81.
-
-
-LaTeX Warning: Citation `dissert' on page 9 undefined on input line 83.
-
-
-LaTeX Warning: Citation `dissert' on page 9 undefined on input line 91.
-
-[9]) (CALCULATIONS/calculations.tex
+ [2] (ABSTRACT/abstract.tex) (INTRO/intro.tex [3] [4])
+(METHODS/methods.tex [5] [6] [7] [8] [9]) (CALCULATIONS/calculations.tex
 LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd"
@@ -800,20 +783,7 @@ Underfull \hbox (badness 1466) in paragraph at lines 5--6
 был ре-а-ли-зо-ван в сре-де
  []
 
-[10]
-
-LaTeX Warning: Reference `fig:bEta' on page 11 undefined on input line 41.
-
-
-LaTeX Warning: Reference `fig:bEtaScaled' on page 11 undefined on input line 41
-.
-
-[11]
-
-LaTeX Warning: Reference `fig:bEtaConstN' on page 12 undefined on input line 56
-.
-
-) (CONCLUSIONS/conclusions.tex [12]) (BIB/bib.tex
+[10] [11] [12]) (CONCLUSIONS/conclusions.tex) (BIB/bib.tex [13]
 Underfull \hbox (badness 5490) in paragraph at lines 35--38
 []\T2A/cmr/m/n/12 D.S. Cerci (2017). \T2A/cmr/m/it/12 Soft and Hard QCD Process
 es in CMS \T2A/cmr/m/n/12 (slides). []$\T2A/cmtt/m/n/12 https :
@@ -831,13 +801,13 @@ Underfull \hbox (badness 1107) in paragraph at lines 40--46
 ure of the pomeron and the rise of
  []
 
-[13]
+
 Underfull \hbox (badness 4144) in paragraph at lines 109--114
 []\T2A/cmr/m/n/12 V.V. Vechernin, C. Pajares, M.A. Braun (2001). \T2A/cmr/m/it/
 12 Forward-backward multiplicity
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 138--141
 []$\T2A/cmtt/m/n/12 https : / / indico . cern . ch / event / 92209 / contributi
 ons / 2114409 / attachments /
@@ -849,35 +819,41 @@ Underfull \hbox (badness 1442) in paragraph at lines 143--149
 lar Approach to Long-Range $\OML/cmm/m/it/12 p[]$ \T2A/cmr/m/it/12 and
  []
 
-[14]) [15] (APPENDIX/appendix.tex
-<Img/QGstring.png, id=372, 301.125pt x 211.79124pt>
+
+Underfull \hbox (badness 1348) in paragraph at lines 167--170
+[]\T2A/cmr/m/n/12 V.V. Vechernin (2005) \T2A/cmr/m/it/12 Ку-му-ля-тив-ные яв-ле
+-ния и даль-ние кор-ре-ля-ции во вза-и-
+ []
+
+) [15] (APPENDIX/appendix.tex
+<Img/QGstring.png, id=406, 301.125pt x 211.79124pt>
 File: Img/QGstring.png Graphic file (type png)
 <use Img/QGstring.png>
 Package pdftex.def Info: Img/QGstring.png  used on input line 4.
 (pdftex.def)             Requested size: 227.62204pt x 160.10016pt.
-<Img/DevSch.jpg, id=373, 563.10374pt x 302.12875pt>
+<Img/DevSch.jpg, id=407, 563.10374pt x 302.12875pt>
 File: Img/DevSch.jpg Graphic file (type jpg)
 <use Img/DevSch.jpg>
 Package pdftex.def Info: Img/DevSch.jpg  used on input line 5.
 (pdftex.def)             Requested size: 455.24408pt x 244.25732pt.
-<Img/Strings.png, id=374, 628.59843pt x 477.28313pt>
+<Img/Strings.png, id=408, 628.59843pt x 477.28313pt>
 File: Img/Strings.png Graphic file (type png)
 <use Img/Strings.png>
 Package pdftex.def Info: Img/Strings.png  used on input line 6.
 (pdftex.def)             Requested size: 369.88582pt x 280.84447pt.
-<Img/DFS.jpg, id=376, 328.22626pt x 369.38pt>
+<Img/DFS.jpg, id=410, 328.22626pt x 369.38pt>
 File: Img/DFS.jpg Graphic file (type jpg)
 <use Img/DFS.jpg>
 Package pdftex.def Info: Img/DFS.jpg  used on input line 7.
 (pdftex.def)             Requested size: 256.0748pt x 288.18286pt.
  [16 <./Img/QGstring.png> <./Img/DevSch.jpg>]
-<Img/N_S_MATLAB/NclNetaMATLAB.png, id=382, 650.43pt x 433.62pt>
+<Img/N_S_MATLAB/NclNetaMATLAB.png, id=416, 650.43pt x 433.62pt>
 File: Img/N_S_MATLAB/NclNetaMATLAB.png Graphic file (type png)
 <use Img/N_S_MATLAB/NclNetaMATLAB.png>
 Package pdftex.def Info: Img/N_S_MATLAB/NclNetaMATLAB.png  used on input line 8
 .
 (pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
-<Img/N_S_MATLAB/SclSetaMATLAB.png, id=383, 650.43pt x 433.62pt>
+<Img/N_S_MATLAB/SclSetaMATLAB.png, id=417, 650.43pt x 433.62pt>
 File: Img/N_S_MATLAB/SclSetaMATLAB.png Graphic file (type png)
 <use Img/N_S_MATLAB/SclSetaMATLAB.png>
 Package pdftex.def Info: Img/N_S_MATLAB/SclSetaMATLAB.png  used on input line 9
@@ -885,92 +861,81 @@ Package pdftex.def Info: Img/N_S_MATLAB/SclSetaMATLAB.png  used on input line 9
 (pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
 
 [17 <./Img/Strings.png> <./Img/DFS.jpg>]
-<Img/N_S_cpp/NclNeta.png, id=389, 650.43pt x 433.62pt>
+<Img/N_S_cpp/NclNeta.png, id=423, 650.43pt x 433.62pt>
 File: Img/N_S_cpp/NclNeta.png Graphic file (type png)
 <use Img/N_S_cpp/NclNeta.png>
 Package pdftex.def Info: Img/N_S_cpp/NclNeta.png  used on input line 10.
 (pdftex.def)             Requested size: 426.79134pt x 284.53595pt.
-<Img/N_S_cpp/SclSeta.png, id=390, 650.43pt x 433.62pt>
+<Img/N_S_cpp/SclSeta.png, id=424, 650.43pt x 433.62pt>
 File: Img/N_S_cpp/SclSeta.png Graphic file (type png)
 <use Img/N_S_cpp/SclSeta.png>
 Package pdftex.def Info: Img/N_S_cpp/SclSeta.png  used on input line 11.
 (pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
  [18 <./Img/N_S_MATLAB/NclNetaMATLAB.png> <./Img/N_S_MATLAB/SclSetaMATLAB.png>]
-<Img/MulReduction/nn0eta.png, id=397, 462.528pt x 346.896pt>
+<Img/MulReduction/nn0eta.png, id=431, 650.43pt x 433.62pt>
 File: Img/MulReduction/nn0eta.png Graphic file (type png)
 <use Img/MulReduction/nn0eta.png>
 Package pdftex.def Info: Img/MulReduction/nn0eta.png  used on input line 12.
-(pdftex.def)             Requested size: 426.79134pt x 320.11154pt.
-<Img/b_eta/bEtaConstNScaled.png, id=398, 650.43pt x 433.62pt>
+(pdftex.def)             Requested size: 426.79134pt x 284.53595pt.
+<Img/b_eta/b_nn.png, id=432, 650.43pt x 433.62pt>
+File: Img/b_eta/b_nn.png Graphic file (type png)
+<use Img/b_eta/b_nn.png>
+Package pdftex.def Info: Img/b_eta/b_nn.png  used on input line 13.
+(pdftex.def)             Requested size: 426.79134pt x 284.53595pt.
+ [19 <./Img/N_S_cpp/NclNeta.png> <./Img/N_S_cpp/SclSeta.png>]
+<Img/b_eta/b_pp.png, id=440, 650.43pt x 433.62pt>
+File: Img/b_eta/b_pp.png Graphic file (type png)
+<use Img/b_eta/b_pp.png>
+Package pdftex.def Info: Img/b_eta/b_pp.png  used on input line 14.
+(pdftex.def)             Requested size: 426.79134pt x 284.53595pt.
+<Img/b_eta/bEtaConstNScaled.png, id=441, 650.43pt x 433.62pt>
 File: Img/b_eta/bEtaConstNScaled.png Graphic file (type png)
 <use Img/b_eta/bEtaConstNScaled.png>
-Package pdftex.def Info: Img/b_eta/bEtaConstNScaled.png  used on input line 13.
+Package pdftex.def Info: Img/b_eta/bEtaConstNScaled.png  used on input line 15.
 
 (pdftex.def)             Requested size: 455.24408pt x 303.50546pt.
- [19 <./Img/N_S_cpp/NclNeta.png> <./Img/N_S_cpp/SclSeta.png>] [20 <./Img/MulRed
-uction/nn0eta.png> <./Img/b_eta/bEtaConstNScaled.png>]
-Underfull \vbox (badness 10000) detected at line 34
+ [20 <./Img/MulReduction/nn0eta.png> <./Img/b_eta/b_nn.png>] [21 <./Img/b_eta/b
+_pp.png> <./Img/b_eta/bEtaConstNScaled.png>]
+Underfull \vbox (badness 10000) detected at line 37
  []
 
 
-Underfull \vbox (badness 10000) detected at line 51
+Underfull \vbox (badness 10000) detected at line 54
  []
 
 
-Underfull \vbox (badness 10000) detected at line 67
+Underfull \vbox (badness 10000) detected at line 71
  []
 
 
-Underfull \vbox (badness 10000) detected at line 83
+Underfull \vbox (badness 10000) detected at line 87
+ []
+
+[22]
+Underfull \vbox (badness 10000) detected at line 105
  []
 
 
-Underfull \vbox (badness 10000) detected at line 99
- []
-
-[21]
-
-LaTeX Warning: Reference `fig:bEta' on page 22 undefined on input line 112.
-
-
-LaTeX Warning: Reference `fig:bEtaScaled' on page 22 undefined on input line 11
-2.
-
-
-LaTeX Warning: Reference `fig:bEta' on page 22 undefined on input line 112.
-
-
-LaTeX Warning: Reference `fig:bEtaScaled' on page 22 undefined on input line 11
-2.
-
-
-Underfull \vbox (badness 10000) detected at line 113
+Underfull \vbox (badness 10000) detected at line 119
  []
 
 
-LaTeX Warning: Reference `fig:bEtaConstN' on page 22 undefined on input line 12
-8.
-
-
-LaTeX Warning: Reference `fig:bEtaConstN' on page 22 undefined on input line 12
-8.
-
-
-Underfull \vbox (badness 10000) detected at line 129
+Underfull \vbox (badness 10000) detected at line 132
  []
 
-[22] [23])
+
+Underfull \vbox (badness 10000) detected at line 150
+ []
+
+[23] [24])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
- [24]
+ [25]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (Main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: E6D372523C6C505502DDDD439CC6149B;7592.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 4F6A16CFDAD74BC6DF570E74EC02808D;9396.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -978,10 +943,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 15275 strings out of 492945
- 213590 string characters out of 3135514
- 516741 words of memory out of 3000000
- 18763 multiletter control sequences out of 15000+200000
+ 15304 strings out of 492945
+ 214065 string characters out of 3135514
+ 510741 words of memory out of 3000000
+ 18779 multiletter control sequences out of 15000+200000
  25685 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,20n,58p,3411b,1839s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1005,18 +970,18 @@ nts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb>
-Output written on Main.pdf (24 pages, 884275 bytes).
+cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y8.pfb>
+Output written on Main.pdf (25 pages, 985729 bytes).
 PDF statistics:
- 1319 PDF objects out of 1440 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1373 PDF objects out of 1440 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

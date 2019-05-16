@@ -9,10 +9,13 @@
 \imgh{16cm}{N_S_MATLAB/SclSetaMATLAB}{График зависимости $S_{cl}/S$ от $\eta$ (MATLAB, усреднено по 60 симуляциям)}{SclSetaMATLAB}
 \imgh{15cm}{N_S_cpp/NclNeta}{График зависимости $N_{cl}/N$ от $\eta$ (С++, усреднено по 3638 симуляциям)}{NclNeta}
 \imgh{16cm}{N_S_cpp/SclSeta}{График зависимости $S_{cl}/S$ от $\eta$ (С++, усреднено по  3638 симуляциям)}{SclSeta}
-\imgh{15cm}{MulReduction/nn0eta}{График зависимости $\langle n \rangle / \langle n_0 \rangle$ от $\eta$ (С++, усреднено по 3563 симуляциям)}{nn0eta}
+\imgh{15cm}{MulReduction/nn0eta}{График зависимости $\langle n_{f} \rangle / \langle n_{nf} \rangle$ от $\eta$, демонстрирующий ослабление влияния прироста количества струн на прирост множественности в модели со слиянием струн (С++, усреднено по 40000 симуляциям)}{nn0eta}
+\imgh{15cm}{b_eta/b_nn}{График зависимости коэффициента корреляции $b_{nn}$ от $\langle \eta \rangle$ (С++, усреднено по 40000 симуляциям)}{bnn}
+\imgh{15cm}{b_eta/b_pp}{График зависимости коэффициента корреляции $b_{p_tp_t}$ от $\langle \eta \rangle$ (С++, усреднено по 40000 симуляциям)}{bpp}
 \imgh{16cm}{b_eta/bEtaConstNScaled}{Демонстрация отсутствия корреляций при $N = \langle N \rangle$ со слиянием (С++, 10000 симуляций)}{bEtaConstNScaled}
 %%%
 \subsection{Таблицы}
+\subsubsection{Перколяционный переход при равномерном распределении струн}
 {\footnotesize
 \begin{longtable}{| l | l | l || l | l | l || l | l | l |}
 	\hline
@@ -50,6 +53,7 @@
 	\caption{Значения $\eta$ и соответствующие $S_{cl}/S$ с погрешностями $\Delta (S_{cl}/S)$ к рис. \ref{fig:SclSetaMATLAB}} \label{tab:SclSetaMATLAB}
 \end{longtable}}
 
+\subsubsection{Перколяционный переход при параболическом распределении струн}
 {\footnotesize
 \begin{longtable}{| l | l | l | l || l | l | l | l |}
 	\hline
@@ -63,7 +67,7 @@
 	1.391	&	0.914	&	0.018	&	0.019	&	7.714	&	1.000	&	0.045	&	0	\\
 	1.822	&	0.960	&	0.020	&	0.009	&	10.212	&	1.000	&	0.054	&	0	\\
 	\hline
-	\caption{Значения $\eta$ и соответствующие $N_{cl}/N$ с погрешностями $\Delta \eta$ и $\Delta (N_{cl}/N)$ к рис. \ref{fig:NclNeta}} \label{tab:NclNeta}
+	\caption{$\eta$ и соответствующие $N_{cl}/N$ с погрешностями $\Delta \eta$ и $\Delta (N_{cl}/N)$ к рис. \ref{fig:NclNeta}} \label{tab:NclNeta}
 \end{longtable}}
 
 {\footnotesize
@@ -79,13 +83,15 @@
 	1.391	&	0.765	&	0.018	&	0.035	&	7.714	&	0.995	&	0.045	&	0.004	\\
 	1.822	&	0.854	&	0.020	&	0.027	&	10.212	&	0.998	&	0.054	&	0.003	\\
 	\hline
-	\caption{Значения $\eta$ и соответствующие $S_{cl}/S$ с погрешностями $\Delta \eta$ и $\Delta (S_{cl}/S)$ к рис. \ref{fig:SclSeta}} \label{tab:SclSeta}
+	\caption{$\eta$ и соответствующие $S_{cl}/S$ с погрешностями $\Delta \eta$ и $\Delta (S_{cl}/S)$ к рис. \ref{fig:SclSeta}} \label{tab:SclSeta}
 \end{longtable}}
 
+\newpage
+\subsubsection{Учёт слияния струн до адронизации}
 {\footnotesize
 \begin{longtable}{| l | l | l | l || l | l | l | l |}
 	\hline
-	$\eta$	&	$\langle n \rangle / \langle n_0 \rangle$	&	$\Delta \eta$	&	$\Delta (\langle n \rangle / \langle n_0 \rangle)$	&	$\eta$	&	$\langle n \rangle / \langle n_0 \rangle$	&	$\Delta \eta$	&	$\Delta (\langle n \rangle / \langle n_0 \rangle)$	\\
+	$\eta$	&	$\langle n_{f} \rangle / \langle n_{nf} \rangle$	&	$\Delta \eta$	&	$\Delta (\langle n_{f} \rangle / \langle n_{nf} \rangle)$	&	$\eta$	&	$\langle n_{f} \rangle / \langle n_{nf} \rangle$	&	$\Delta \eta$	&	$\Delta (\langle n_{f} \rangle / \langle n_{nf} \rangle)$	\\
 	\hline
 	1.063	&	0.968	&	0.017	&	0.008	&	2.879	&	0.587	&	0.027	&	0.003	\\
 	1.326	&	0.865	&	0.019	&	0.007	&	3.304	&	0.549	&	0.028	&	0.002	\\
@@ -95,27 +101,42 @@
 	2.061	&	0.694	&	0.024	&	0.004	&	8.581	&	0.341	&	0.043	&	0.001	\\
 	2.463	&	0.635	&	0.025	&	0.003	&	11.236	&	0.298	&	0.052	&	0.001	\\
 	\hline
-	\caption{Значения $\eta$ и $\langle n \rangle / \langle n_0 \rangle$ с погрешностями $\Delta \eta$ и $\Delta (\langle n \rangle / \langle n_0 \rangle)$ к рис. \ref{fig:nn0eta}} \label{tab:nn0eta}
+	\caption{Значения $\eta$ и $\langle n_{f} \rangle / \langle n_{nf} \rangle$ с погрешностями $\Delta \eta$ и $\Delta (\langle n_{f} \rangle / \langle n_{nf} \rangle)$ к рис. \ref{fig:nn0eta}} \label{tab:nn0eta}
+\end{longtable}}
+
+\subsubsection{Вычисление корреляционного коэффициента}
+{\footnotesize
+\begin{longtable}{| l | l | l || l | l | l |}
+	\hline
+	$\langle \eta \rangle$	&	$b_{nn}$ (fusion)	&	$b_{nn}$ (no fusion)	&	$\langle \eta \rangle$	&	$b_{nn}$ (fusion)	&	$b_{nn}$ (no fusion)	\\
+	\hline
+	0.090	&	0.468	&	0.493	&	2.970	&	0.173	&	0.498	\\
+	0.225	&	0.448	&	0.495	&	5.040	&	0.115	&	0.507	\\
+	0.495	&	0.421	&	0.505	&	10.980	&	0.079	&	0.502	\\
+	0.990	&	0.368	&	0.505	&	-		&	-		&		-	\\
+	\hline
+	\caption{Значения $\langle \eta \rangle$ и соответствующие $b_{nn}$ (fusion) и $b_{nn}$ (no fusion) к рис. \ref{fig:bnn}} \label{tab:bnn}
 \end{longtable}}
 
 {\footnotesize
 \begin{longtable}{| l | l | l || l | l | l |}
 	\hline
-	$\eta$	&	$b_{\textnormal{fusion}}$	&	$b_{\textnormal{no fusion}}$	&	$\eta$	&	$b_{\textnormal{fusion}}$	&	$b_{\textnormal{no fusion}}$	\\
+	$\langle \eta \rangle$	&	$b_{p_tp_t}$ (fusion)	&	$b_{p_tp_t}$ (no fusion)	&	$\langle \eta \rangle$	&	$b_{p_tp_t}$ (fusion)	&	$b_{p_tp_t}$ (no fusion)	\\
 	\hline
-	0.002	&	0.489	&	0.496	&	0.467	&	0.992	&	0.990	\\
-	0.008	&	0.780	&	0.758	&	0.933	&	0.995	&	0.999	\\
-	0.042	&	0.945	&	0.900	&	2.800	&	0.997	&	1.002	\\
-	0.085	&	0.969	&	0.938	&	4.751	&	0.996	&	1.003	\\
-	0.212	&	0.985	&	0.973	&	10.35	&	0.998	&	1.004	\\
+	0.090	&	-0.008	&	0.980	&	2.970	&	0.055	&	1.000	\\
+	0.225	&	0.004	&	0.999	&	5.040	&	0.045	&	1.000	\\
+	0.495	&	0.010	&	1.000	&	10.980	&	0.033	&	1.000	\\
+	0.990	&	0.023	&	1.000	&	-		&	-		&		-	\\
 	\hline
-	\caption{Значения $\eta$ и соответствующие $b_{\textnormal{fusion}}$ и $b_{\textnormal{no fusion}}$ к рис. \ref{fig:bEta} и рис. \ref{fig:bEtaScaled}} \label{tab:bEta}
+	\caption{Значения $\langle \eta \rangle$ и соответствующие $b_{p_tp_t}$ (fusion) и $b_{p_tp_t}$ (no fusion) к рис. \ref{fig:bpp}} \label{tab:bnn}
 \end{longtable}}
+
+
 
 {\footnotesize
 \begin{longtable}{| l | l || l | l |}
 	\hline
-	$\eta$	&	$b_{\textnormal{fusion}}$	&	$\eta$	&	$b_{\textnormal{fusion}}$	\\
+	$\langle \eta \rangle$	&	$b_{\textnormal{fusion}}$	&	$\eta$	&	$b_{\textnormal{fusion}}$	\\
 	\hline
 	0.085	&	-0.001	&	2.545	&	0.037	\\
 	0.424	&	0.007	&	3.393	&	0.046	\\
@@ -125,7 +146,7 @@
 	1.273	&	0.028	&	10.180	&	0.010	\\
 	1.697	&	0.029	&	-		&	-	\\
 	\hline
-	\caption{Значения $\eta$ и соответствующие $b_{\textnormal{fusion}}$ к рис. \ref{fig:bEtaConstN} и рис. \ref{fig:bEtaConstNScaled}} \label{tab:bEtaConstN}
+	\caption{Значения $\eta$ и соответствующие $b_{\textnormal{fusion}}$ к рис. \ref{fig:bEtaConstNScaled}} \label{tab:bEtaConstN}
 \end{longtable}}
 %%%
 \newpage
