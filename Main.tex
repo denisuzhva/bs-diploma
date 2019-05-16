@@ -8,6 +8,7 @@
 \usepackage{listings}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{pdfpages}
 \usepackage{xcolor}
 \usepackage{longtable}
 \usepackage{feynmp}%%%{feynmp}
@@ -49,10 +50,11 @@
 \newcommand{\imgh}[4]{\begin{figure}[H]\center{\includegraphics[width=#1]{#2}}\caption{#3}\label{fig:#4}\end{figure}}
 
 \begin{document}
-\pagenumbering{gobble}
-{\footnotesize
-\input{TP/Thesis}
-}
+%\pagenumbering{gobble}
+%{\footnotesize
+%\input{TP/Thesis}
+%}
+\includepdf[pages={1}]{TP/Thesis}
 \newpage
 \tableofcontents
 \pagenumbering{arabic}
