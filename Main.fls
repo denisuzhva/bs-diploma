@@ -175,8 +175,8 @@ INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2-eps-converted-to.pdf
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2-eps-converted-to.pdf
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1440.tfm
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1000.tfm
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1728.tfm
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1728.tfm
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.toc
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.toc
@@ -204,6 +204,12 @@ INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\ABSTRACT\abstract.tex
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\ABSTRACT\abstract.tex
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1095.tfm
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1095.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\INTRO\intro.tex
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\INTRO\intro.tex
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm0800.tfm

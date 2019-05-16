@@ -25,5 +25,5 @@
 \contentsline {section}{\numberline {5}{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{13}{section.5}% 
 \contentsline {section}{\numberline {6}\IeC {\CYRP }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }}{16}{section.6}% 
 \contentsline {subsection}{\numberline {6.1}\IeC {\CYRI }\IeC {\cyrz }\IeC {\cyro }\IeC {\cyrb }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrzh }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya }}{16}{subsection.6.1}% 
-\contentsline {subsection}{\numberline {6.2}\IeC {\CYRT }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyrery }}{22}{subsection.6.2}% 
-\contentsline {subsection}{\numberline {6.3}\IeC {\CYRK }\IeC {\cyro }\IeC {\cyrd } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyrm }\IeC {\cyrery }}{24}{subsection.6.3}% 
+\contentsline {subsection}{\numberline {6.2}\IeC {\CYRT }\IeC {\cyra }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrc }\IeC {\cyrery }}{21}{subsection.6.2}% 
+\contentsline {subsection}{\numberline {6.3}\IeC {\CYRK }\IeC {\cyro }\IeC {\cyrd } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyrm }\IeC {\cyrery }}{23}{subsection.6.3}% 
