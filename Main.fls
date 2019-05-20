@@ -98,10 +98,21 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\epirt\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\epirt\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\epirt\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\epirt\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\epirt\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\epirt\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\epirt\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\epirt\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\epirt\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty
 INPUT C:\Users\epirt\AppData\Roaming\MiKTeX\2.9\tex\latex\feynmf\feynmp.sty
@@ -147,36 +158,34 @@ OUTPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.pdf
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.out
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.out
 OUTPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.out
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1000.tfm
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.tex
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.tex
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1440.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2.eps
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2.eps
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2.eps
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2-eps-converted-to.pdf
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2-eps-converted-to.pdf
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2.eps
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2-eps-converted-to.pdf
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2-eps-converted-to.pdf
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2-eps-converted-to.pdf
-INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\eagle2-eps-converted-to.pdf
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1440.tfm
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1000.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
+INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\TP\Thesis.pdf
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1728.tfm
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1728.tfm
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.toc
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.toc
@@ -193,13 +202,18 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 OUTPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.toc
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\ABSTRACT\abstract.tex
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\ABSTRACT\abstract.tex
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1095.tfm
@@ -212,6 +226,8 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\INTRO\intro.tex
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\INTRO\intro.tex
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1440.tfm
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1440.tfm
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm0800.tfm
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm0600.tfm
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\METHODS\methods.tex
@@ -288,22 +304,38 @@ INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\b_eta\bEtaConstNScaled.png
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\b_eta\bEtaConstNScaled.png
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\b_eta\bEtaConstNScaled.png
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Img\b_eta\bEtaConstNScaled.png
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm1000.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm0700.tfm
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\larm0500.tfm
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\labx1000.tfm
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\tfm\lh\lh-t2a\lati1000.tfm
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.aux
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.out
 INPUT d:\dev\PHYS_CERN\Diploma\bs-diploma\Main.out
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1000.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1000.pk
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0700.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0700.pk
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1200.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lati1200.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0800.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1200.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1200.pk
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
+INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1095.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1095.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1095.pk
@@ -314,16 +346,6 @@ INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\l
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
 INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1728.pk
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1000.pk
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
-INPUT C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
