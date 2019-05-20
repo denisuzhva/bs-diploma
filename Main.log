@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.2)  20 MAY 2019 20:53
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.5.14)  19 MAY 2019 11:41
+>>>>>>> c139d1d485eea2d20f9038964662984f5b65b41d
 entering extended mode
 **d:/dev/PHYS_CERN/Diploma/bs-diploma/Main.tex
 (d:/dev/PHYS_CERN/Diploma/bs-diploma/Main.tex
@@ -758,7 +762,11 @@ Underfull \hbox (badness 1466) in paragraph at lines 5--6
 []\T2A/cmr/m/n/12 Как ука-за-но вы-ше, пер-во-на-чаль-но ал-го-ритм рас-чј-тов был ре-а-ли-зо-ван в сре-де
  []
 
+<<<<<<< HEAD
 [10] [11] [12]) (d:/dev\PHYS_CERN\Diploma\bs-diploma\CONCLUSIONS/conclusions.tex [13]) (d:/dev\PHYS_CERN\Diploma\bs-diploma\BIB/bib.tex
+=======
+[10] [11]) (./CONCLUSIONS/conclusions.tex [12]) [13] (./BIB/bib.tex
+>>>>>>> c139d1d485eea2d20f9038964662984f5b65b41d
 Underfull \hbox (badness 5490) in paragraph at lines 35--38
 []\T2A/cmr/m/n/12 D.S. Cerci (2017). \T2A/cmr/m/it/12 Soft and Hard QCD Processes in CMS \T2A/cmr/m/n/12 (slides). []$\T2A/cmtt/m/n/12 https :
  []
@@ -912,9 +920,37 @@ Here is how much of TeX's memory you used:
  19487 multiletter control sequences out of 15000+200000
  25685 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  37i,20n,58p,3445b,1837s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1200.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1200.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1095.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\epirt\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on d:/dev\PHYS_CERN\Diploma\bs-diploma\Main.pdf (25 pages, 874141 bytes).
+=======
+ 37i,20n,58p,3409b,1835s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
+per/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pf
+b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts
+/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/c
+m-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm080
+0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/f
+onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sft
+i1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr
+/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on Main.pdf (25 pages, 866710 bytes).
+>>>>>>> c139d1d485eea2d20f9038964662984f5b65b41d
 PDF statistics:
  1406 PDF objects out of 1440 (max. 8388607)
  177 named destinations out of 1000 (max. 500000)
