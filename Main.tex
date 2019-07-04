@@ -16,7 +16,7 @@
 \usepackage{setspace}
 \usepackage[nottoc,numbib]{tocbibind}
 \graphicspath{{Img/}}
-%\setstretch{1.5}
+\setstretch{1.5}
 
 \captionsetup[table]{skip=10pt}
 
@@ -35,7 +35,7 @@
 %\makeatother
 
 \usepackage{geometry}
-\geometry{left=3cm}% left field
+\geometry{left=2cm}% left field
 \geometry{right=1cm}% right field
 \geometry{top=2cm}% up field
 \geometry{bottom=2cm}% down field
@@ -48,6 +48,10 @@
 \renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
 
 \newcommand{\imgh}[4]{\begin{figure}[H]\center{\includegraphics[width=#1]{#2}}\caption{#3}\label{fig:#4}\end{figure}}
+	
+\makeatletter
+\renewcommand\@biblabel[1]{#1.}
+\makeatother
 
 \begin{document}
 %\pagenumbering{gobble}
@@ -67,6 +71,6 @@
 \input{CONCLUSIONS/conclusions}
 %\newpage
 \input{BIB/bib}
-\newpage
+%\newpage
 \input{APPENDIX/appendix}
 \end{document}
